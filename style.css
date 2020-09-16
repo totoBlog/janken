@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #edffea;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 100px 0 30px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  font-size: 1.4rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
+}
+
+.redteam {
+  color: red;
+}
+
+.whiteteam {
+  color: #000;
+}
+
+footer {
+  margin-top: 30px;
+  font-family: arial;
+}
+
+@media (max-width:670px) {
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    margin-bottom: 40px;
+  }
+
+  .grid {
+    display: grid;
+    font-size: 1.4rem;
+    grid-template-columns: 1fr;
+
+  }
+
+  .whiteteam {
+    margin-top: 50px;
+  }
+
+}
