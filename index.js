@@ -30,7 +30,7 @@ else {
 }
 
 if(jankenRed === 1 && jankenWhite === 2 || jankenRed === 2 && jankenWhite === 3 || jankenRed === 3 && jankenWhite === 1) {
-  document.querySelector("h3").innerHTML = "❤　紅組の勝ち";
+  document.querySelector("h3").innerHTML = "❤　赤組の勝ち";
   document.querySelector("h3").style.color = "red";
 }
 else if(jankenWhite === 1 && jankenRed === 2 || jankenWhite === 2 && jankenRed === 3 || jankenWhite === 3 && jankenRed === 1) {
